@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  peer:
+    image: ""
+    volumes:
+      - .:./code
+    environment:
+      EN: dev
+    ports:
+      10:10
